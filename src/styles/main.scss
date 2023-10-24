@@ -17,6 +17,7 @@
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  padding: 0px 30px;
 
   @media (max-width: 1024px) {
     max-width: 90%;
@@ -24,5 +25,9 @@
 
   @media (max-width: 640px) {
     max-width: 80%;
+  }
+
+  @media (max-width: 400px) {
+    max-width: 95%;
   }
 }
